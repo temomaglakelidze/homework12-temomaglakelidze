@@ -1,49 +1,70 @@
 header {
-  max-width: 1200px;
   width: 100%;
-  margin: auto;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 38px;
-  nav {
-    .header-btn {
-      color: #fff;
-      font-family: Gilroy;
-      font-size: 22px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: normal;
-      padding: 11px 27px;
-      border-radius: 5.952px;
-      background: #75bf7a;
-      &:hover {
-        border: 5px solid #75bf7a;
-        color: #75bf7a;
-        background: none;
+  align-items: center;
+  margin: auto;
+  background-color: white;
+  position: sticky;
+  .header-wrapper {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 80px;
+    .header-content {
+      display: flex;
+      column-gap: 47px;
+      align-items: center;
+      .header-btn {
+        padding: 11px 27px;
+        border-radius: 5.952px;
+        background: #75bf7a;
+        color: #fff;
+        font-family: Gilroy;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        &:hover {
+          border: 4px solid #75bf7a;
+          background: none;
+          color: #75bf7a;
+        }
+      }
+      .nav-list {
+        display: flex;
+        column-gap: 46px;
+        a {
+          color: #000;
+          font-family: Gilroy;
+          font-size: 17.161px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          &:hover {
+            border-bottom: 1px solid #000;
+          }
+        }
       }
     }
-    display: flex;
-    column-gap: 47px;
-    align-items: center;
-    ul {
-      display: flex;
-      column-gap: 46px;
-      a {
-        color: #000;
-        font-family: Gilroy;
-        font-size: 17.161px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-      }
+    .burger-menu {
+      display: none;
     }
   }
 }
-@media (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   header {
-    nav {
-      display: none;
+    .header-wrapper {
+      padding: 10px;
+      .header-content {
+        display: none;
+      }
+      .burger-menu {
+        display: block;
+      }
     }
   }
 }

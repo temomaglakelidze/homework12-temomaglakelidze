@@ -3,54 +3,118 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
-      <a href="index.html"><img src="images/logo.svg" alt="logo" /></a>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">How to tere works</a></li>
-          <li><a href="#">Tere benfits</a></li>
-        </ul>
-        <a class="header-btn" href="#">Help Center</a>
-      </nav>
+      <div class="header-wrapper">
+        <a href="index.html"><img src="images/logo.svg" alt="Logo" /></a>
+        <div class="header-content">
+          <nav>
+            <ul class="nav-list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#tere-work">How tere works</a></li>
+              <li><a href="#">Tere benefits</a></li>
+            </ul>
+          </nav>
+          <a href="#" class="header-btn">Help Center</a>
+        </div>
+        <img src="images/burger-menu.svg" alt="Menu" class="burger-menu" />
+      </div>
     </header>
     <main>
-      <div class="main-container">
-        <div class="main-text">
-          <h1>DOWNLOAD APP, SAVE MONEY, MAKE FRIENDS!</h1>
-          <p>
-            Its simple and its free. Play your part in reducing Carbon Footprint
-            and help Mother Nature to sustain its beauty. So what are you
-            waiting for ? Lets ride together
-          </p>
-          <div class="main-buttons">
-            <a href="#" class="main-btn"
-              ><img src="images/play-store.svg" alt="Play Store" />DOWNLOAD</a
-            >
-            <a href="#" class="main-btn"
-              ><img src="images/app-store.svg" alt="Play Store" />DOWNLOAD</a
-            >
+      <div class="main-text">
+        <h1>DOWNLOAD APP, SAVE MONEY, MAKE FRIENDS!</h1>
+        <p>
+          Its simple and its free. Play your part in reducing Carbon Footprint
+          and help Mother Nature to sustain its beauty. So what are you waiting
+          for ? Lets ride together
+        </p>
+        <div class="main-text-buttons">
+          <div class="main-btn">
+            <img src="images/play-store.svg" alt="Play Store" />
+            <span>DOWNLOAD</span>
           </div>
-        </div>
-        <div class="main-content">
-          <div class="world-trip">
-            <img src="images/world-map.svg" alt="world map" class="world-map" />
-            <img src="images/mark.svg" alt="mark" class="mark-1" />
-            <img src="images/mark.svg" alt="mark" class="mark-2" />
-            <img src="images/sun.svg" alt="sun" class="sun-icon" />
-            <img src="images/Line.svg" alt="Line" class="line" />
-            <img src="images/cloud.svg" alt="cloud" class="cloud-icon" />
-          </div>
-          <div class="car-image">
-            <img src="images/car.svg" alt="car" />
+          <div class="main-btn">
+            <img src="images/app-store.svg" alt="Play Store" />
+            <span>DOWNLOAD</span>
           </div>
         </div>
       </div>
+      <div class="main-content">
+        <div class="world-trip">
+          <img src="images/cloud.svg" alt="cloud" class="cloud" />
+          <img src="images/Line.svg" alt="Line" class="line" />
+          <img src="images/mark.svg" alt="mark" class="mark" />
+          <img src="images/mark.svg" alt="mark" class="mark-1" />
+          <img src="images/sun.svg" alt="sun" class="sun" />
+          <img src="images/world-map.svg" alt="world map" class="world-map" />
+        </div>
+        <div class="car-content">
+          <img src="images/car.svg" alt="car" />
+        </div>
+      </div>
     </main>
-    <section class="form"></section>
+    <!-- <section class="drive-form">
+      <h3>Let’s go. Get a link to download the app.</h3>
+      <form action="#">
+        <input
+          type="number"
+          placeholder="Enter mobile phone number"
+          class="mobile-number"
+        />
+        <button class="apply-drive">APPLY TO DRIVE</button>
+      </form>
+    </section>   -->
+    <!-- <section id="tere-work">
+      <div class="tere-work-title">
+        <h2>How <span>TERE</span> WORKS</h2>
+        <p>
+          Download and install the tere app. Enter your phone number and make
+          your user account. when approved you may start driving.
+        </p>
+        <div class="tere-work-content">
+          <div class="work-column">
+            <div class="reference">
+              <img src="images/number-1.svg" alt="number 1" />
+              <h4>REQUESST A RIDE</h4>
+              <p>
+                Have to reach office or going for shopping ? Just put your
+                current location and destination and search a ride that suits
+                you
+              </p>
+            </div>
+            <div class="reference">
+              <img src="images/number-3.svg" alt="number 3" />
+              <h4>INSTANT NOTIFICATIONS</h4>
+              <p>
+                Get instant notifications for your rides and be in contact with
+                fellow riders all the time
+              </p>
+            </div>
+          </div>
+          <img src="images/mobile.svg" alt="mobile" />
+          <div class="work-column">
+            <div class="reference">
+              <img src="images/number-2.svg" alt="number 2" />
+              <h4>POST A RIDE</h4>
+              <p>
+                Going somewhere but hate to travel alone - just post your ride
+                details and publish it
+              </p>
+            </div>
+            <div class="reference">
+              <img src="images/number-4.svg" alt="number 4" />
+              <h4>CASHLESS PAYMENT</h4>
+              <p>
+                Going somewhere but hate to travel alone - just post your ride
+                details and publish it
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
   </body>
 </html>
