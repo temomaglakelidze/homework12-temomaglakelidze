@@ -54,19 +54,28 @@ header {
       display: none;
     }
   }
-}
-@media only screen and (max-width: 600px) {
-  header {
-    background-color: #f9f9f9;
-    max-width: 420px;
-    margin: auto;
-    .header-wrapper {
-      padding: 10px;
-      .header-content {
-        display: none;
+  @media only screen and (max-width: 900px) {
+    header {
+      .header-wrapper {
+        .header-content {
+          display: none;
+        }
       }
-      .burger-menu {
-        display: block;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    header {
+      background-color: #f9f9f9;
+      max-width: 420px;
+      margin: auto;
+      .header-wrapper {
+        padding: 10px;
+        .header-content {
+          display: none;
+        }
+        .burger-menu {
+          display: block;
+        }
       }
     }
   }
