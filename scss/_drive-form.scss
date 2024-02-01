@@ -1,0 +1,68 @@
+.drive-form {
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 55px 71px;
+  background-color: #75bf7a;
+  border-radius: 10px;
+  justify-content: space-between;
+  h3 {
+    max-width: 246px;
+    width: 100%;
+    font-family: Gilroy;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+  }
+  form {
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+    .mobile-number {
+      width: 499px;
+      height: 67px;
+      border-radius: 4.39px;
+      border: none;
+      outline: none;
+      padding: 38px 208px 29px 35px;
+      font-family: Gilroy;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 0em;
+      text-align: left;
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      &::placeholder {
+        font-family: Gilroy;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #dadada;
+      }
+    }
+    .apply-drive {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #000000;
+      font-family: Gilroy;
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: 0em;
+      color: white;
+      width: 260px;
+      height: 67px;
+      border-radius: 4.39px;
+      cursor: pointer;
+    }
+  }
+}
