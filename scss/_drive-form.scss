@@ -11,7 +11,7 @@
   h3 {
     max-width: 246px;
     width: 100%;
-    font-family: Gilroy;
+    font-family: roboto;
     font-size: 25px;
     font-weight: 600;
     line-height: 28px;
@@ -31,7 +31,7 @@
       border-radius: 4.39px;
       border: none;
       outline: none;
-      font-family: Gilroy;
+      font-family: roboto;
       font-size: 20px;
       font-weight: 600;
       letter-spacing: 0em;
@@ -43,7 +43,7 @@
       }
       &::placeholder {
         width: 256px;
-        font-family: Gilroy;
+        font-family: roboto;
         font-size: 20px;
         font-weight: 600;
         color: #dadada;
@@ -54,7 +54,7 @@
       align-items: center;
       justify-content: center;
       background-color: #000000;
-      font-family: Gilroy;
+      font-family: roboto;
       font-size: 22px;
       font-weight: 800;
       letter-spacing: 0em;
@@ -77,6 +77,52 @@
       text-align: center;
       font-size: 32px;
       max-width: 300px;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .drive-form {
+    width: 320px;
+    height: 249px;
+    gap: 25px;
+    padding: 22px 20px 30px;
+    border-radius: 5px;
+    margin: auto;
+
+    h3 {
+      font-family: roboto;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .mobile-number {
+        width: 280px;
+        height: 48px;
+        border-radius: 4.39px;
+        padding: 15px 35px 21px 37px;
+        &::placeholder {
+          font-family: roboto;
+          font-size: 16px;
+          font-weight: 600;
+        }
+      }
+      .apply-drive {
+        width: 280px;
+        height: 48px;
+        border-radius: 4.39px;
+        font-family: roboto;
+        font-size: 18px;
+        font-weight: 800;
+        letter-spacing: 0em;
+        text-align: left;
+        cursor: pointer;
+      }
     }
   }
 }
