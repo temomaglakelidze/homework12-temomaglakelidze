@@ -49,7 +49,8 @@
       align-items: end;
       height: 202px;
       img {
-        width: 60px;
+        max-width: 60px;
+        width: 100px;
       }
       h4 {
         font-family: roboto;
@@ -77,16 +78,31 @@
     }
   }
   .circles {
-    width: 100px;
-    height: 50px;
     display: flex;
-    align-items: center;
     column-gap: 5.26px;
-    margin: auto;
+    margin: 60px auto 88px;
+    align-items: center;
+    width: 65px;
+    height: 12.77px;
     .figure {
       width: 12.77px;
       height: 12.77px;
-      background-color: #75bf7a;
+      background: #75bf7a;
+      opacity: 50%;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .active-figure {
+      background: #75bf7a;
+      opacity: 1;
+    }
+  }
+}
+@media only screen and (max-width: 1030px) {
+  #tere-work {
+    .tere-work-content {
+      .work-column {
+      }
     }
   }
 }
