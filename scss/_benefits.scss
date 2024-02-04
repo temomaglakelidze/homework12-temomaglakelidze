@@ -1,0 +1,123 @@
+#benefits {
+  max-width: 1145px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+  h2 {
+    font-family: roboto;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: center;
+    span {
+      color: #75bf7a;
+    }
+  }
+  .benefit-card {
+    max-width: 1060px;
+    width: 100%;
+    padding: 25px 110px 25px 38px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .benefit-card-text {
+      .benefit-card-title {
+        display: flex;
+        column-gap: 39px;
+        align-items: center;
+        h3 {
+          font-family: roboto;
+          font-size: 88px;
+          font-weight: 500;
+          line-height: 119px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #75bf7a;
+        }
+        h4 {
+          width: 218px;
+          font-family: roboto;
+          font-size: 34px;
+          font-weight: 600;
+          line-height: 33px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+      }
+      p {
+        max-width: 385px;
+        width: 100%;
+        font-family: roboto;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #9e9da2;
+      }
+    }
+  }
+  .benefit-card-left {
+    margin-left: 85px;
+    padding: 39px 161px 39px 110px;
+    align-items: center;
+    .benefit-card-text {
+      max-width: 273px;
+      width: 100%;
+    }
+  }
+  .benefit-card-responsive {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .benefit-card {
+      display: none;
+    }
+    .benefit-card-responsive {
+      display: block;
+      width: 320px;
+      height: 477px;
+      top: 3128px;
+      left: 20px;
+      border-radius: 3.02px;
+      background-color: white;
+      gap: 30px;
+      padding: 55px 18px;
+      .benefit-card-title {
+        display: flex;
+        column-gap: 28px;
+        align-items: center;
+        h3 {
+          font-family: roboto;
+          font-size: 65px;
+          font-weight: 500;
+          line-height: 87px;
+          color: #75bf7a;
+        }
+        h4 {
+          font-family: roboto;
+          font-size: 25px;
+          font-weight: 600;
+          line-height: 24px;
+        }
+      }
+      p {
+        font-family: roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 17px;
+        text-align: center;
+        color: #9e9da2;
+      }
+    }
+  }
+}

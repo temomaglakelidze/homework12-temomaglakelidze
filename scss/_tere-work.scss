@@ -98,10 +98,52 @@
     }
   }
 }
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1280px) {
   #tere-work {
     .tere-work-content {
+      img {
+        display: none;
+      }
       .work-column {
+        img {
+          display: block;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  #tere-work {
+    .tere-work-title {
+      h2 {
+        font-family: roboto;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: center;
+      }
+      p {
+        font-family: roboto;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 319px;
+        height: 96px;
+      }
+    }
+    .tere-work-content {
+      .work-column {
+        display: none;
+      }
+      img {
+        display: block;
+        max-width: 320px;
+        width: 100%;
+        height: 448px;
+        margin-top: 64px;
       }
     }
   }
