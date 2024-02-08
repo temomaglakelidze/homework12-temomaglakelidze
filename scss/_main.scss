@@ -52,6 +52,9 @@ main {
         height: 67px;
         border-radius: 5px;
         cursor: pointer;
+        &:hover {
+          opacity: 0.9;
+        }
       }
     }
   }

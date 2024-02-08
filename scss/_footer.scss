@@ -144,9 +144,21 @@ footer {
           flex-direction: column;
           gap: 8.64px;
           order: 2;
+          margin-top: 38.88px;
+          margin-bottom: 47.51px;
           .btn {
-            width: 149.38px;
-            height: 38.36p;
+            display: flex;
+            column-gap: 5.75px;
+            align-items: center;
+            padding: 7.34px 18.39px 8.11px 18.39px;
+            height: 38.36px;
+
+            span {
+              font-family: roboto;
+              font-size: 14px;
+              font-weight: 800;
+              line-height: normal;
+            }
             img {
               width: 25.85px;
               height: 22.92px;
@@ -157,6 +169,18 @@ footer {
       .buttons {
         display: none;
       }
+    }
+    .footer-line {
+      display: none;
+    }
+    .footer-copyright {
+      font-family: roboto;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19px;
+      text-align: center;
+      color: #9e9da2;
+      margin: 38px auto;
     }
   }
 }

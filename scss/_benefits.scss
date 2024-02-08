@@ -103,6 +103,17 @@
       background-color: white;
       gap: 30px;
       padding: 55px 18px;
+      display: flex;
+      flex-direction: column;
+      .benefit-man-responsive {
+        width: 225.72px;
+        height: 223.98px;
+      }
+      img {
+        width: 247px;
+        height: 173.27px;
+        margin: auto;
+      }
       .benefit-card-title {
         display: flex;
         column-gap: 28px;
