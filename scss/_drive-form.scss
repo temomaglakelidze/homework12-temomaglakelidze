@@ -64,6 +64,16 @@
       height: 67px;
       border-radius: 4.39px;
       cursor: pointer;
+      transition: all 0.3s ease 0s;
+      &:hover {
+        color: #404040 !important;
+        font-weight: 700 !important;
+        background: grey;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+        transition: all 0.3s ease 0s;
+        border: none;
+      }
     }
   }
 }
@@ -122,6 +132,15 @@
         letter-spacing: 0em;
         text-align: left;
         cursor: pointer;
+        transition: all 0.3s ease 0s;
+        &:hover {
+          color: #404040 !important;
+          font-weight: 700 !important;
+          background: grey;
+          -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+          -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+          transition: all 0.3s ease 0s;
+        }
       }
     }
   }

@@ -52,8 +52,14 @@ main {
         height: 67px;
         border-radius: 5px;
         cursor: pointer;
+        transition: all 0.3s ease 0s;
         &:hover {
-          opacity: 0.9;
+          color: #404040 !important;
+          font-weight: 700 !important;
+          background: grey;
+          -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+          -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+          transition: all 0.3s ease 0s;
         }
       }
     }
@@ -103,7 +109,6 @@ main {
     }
   }
 }
-
 @media only screen and (max-width: 1200px) {
   main {
     display: flex;
@@ -154,6 +159,15 @@ main {
           width: 160.27px;
           height: 38.85px;
           border-radius: 2.91px;
+          transition: all 0.3s ease 0s;
+          &:hover {
+            color: #404040 !important;
+            font-weight: 700 !important;
+            background: grey;
+            -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+            -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+            transition: all 0.3s ease 0s;
+          }
           img {
             width: 26.18px;
             height: 23.21px;

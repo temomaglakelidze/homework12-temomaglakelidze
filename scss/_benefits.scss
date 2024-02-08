@@ -24,6 +24,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: transform all 0.2s;
+    &:hover {
+      scale: 1.1;
+    }
     .benefit-card-text {
       .benefit-card-title {
         display: flex;
