@@ -74,6 +74,17 @@
     display: none;
   }
 }
+@media only screen and (max-width: 1145px) {
+  #benefits {
+    .benefit-card {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .benefit-card-left {
+      margin-left: 20px;
+    }
+  }
+}
 @media only screen and (max-width: 600px) {
   #benefits {
     display: flex;

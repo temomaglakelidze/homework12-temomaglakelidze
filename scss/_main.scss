@@ -32,11 +32,11 @@ main {
       color: #9e9da2;
       margin-bottom: 62px;
     }
-    .main-text-buttons {
+    .buttons {
       width: fit-content;
       display: flex;
       column-gap: 30px;
-      .main-btn {
+      .btn {
         display: flex;
         align-items: center;
         column-gap: 10px;
@@ -141,9 +141,9 @@ main {
         letter-spacing: 0em;
         text-align: center;
       }
-      .main-text-buttons {
+      .buttons {
         width: 100%;
-        .main-btn {
+        .btn {
           padding: 8px 18px;
           font-family: roboto;
           font-size: 14px;
